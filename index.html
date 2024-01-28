@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- ========================  Navbar  ================================== -->
+    <nav class="d-flex hide-sidebar">
+
+        <div class="link-side d-flex justify-content-between flex-column p-4">
+            <!-- link -->
+            <ul class=" align-self-stratch">
+                <li id="search">
+                    Search
+                </li>
+                <li id="category">
+                    Categories
+                </li>
+                <li id="area">
+                    Area
+                </li>
+                <li id="ingredients">
+                    Ingredients
+                </li>
+                <li id="contact">
+                    Contact Us
+                </li>
+            </ul>
+
+            <!-- footer -->
+            <div class="nav-footer">
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+                <p>
+                    Copyright Â© 2019 All Rights<br />
+                    Reserved.
+                </p>
+            </div>
+        </div>
+
+        <div
+            class="icon-side bg-white text-dark py-4 px-2 d-flex justify-content-between align-items-center flex-column">
+            <div class="img">
+                <img src="./images/logo.png" class="w-100" alt="yummy sticker">
+            </div>
+            <div class="open-iceon">
+                <i class="fa-solid open-close-icon fa-2x fa-x d-none close"></i>
+                <i class="fa-solid open-close-icon fa-2x fa-align-justify d-block bar"></i>
+            </div>
+            <div class="share-icon">
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+
+    </nav>
+
+    <!-- ========================  LOADER  ================================== -->
+    <div class="loader-container">
+        <span class="loader"></span>
+    </div>
+
+    <main>
+
+        <!-- ========================  Home Section  ================================== -->
+        <section class="" id="home">
+            <div class="main-sec container py-5">
+                <div class="sections">
+                    <!-- search -->
+                    <div class="row gy-4 mb-4" id="search">
+                        <div class="col-md-6">
+                            <input type="search" class="form-control searchName" placeholder="Search By Name" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="search" maxlength="1" class="form-control serachLetter"
+                                placeholder="Search By First Letter" />
+                        </div>
+                    </div>
+                    <!-- Category -->
+                    <div class="" id="category">
+                    </div>
+                    <!-- Area -->
+                    <div class="" id="area">
+                    </div>
+                    <!-- Ingredients -->
+                    <div class="" id="ingredients">
+                    </div>
+                    <!--Contact  -->
+                    <div class="" id="contact">
+                    </div>
+                </div>
+
+                <!-- display data cards -->
+                <div class="row gy-4 row-data">
+                </div>
+                <!-- display data details cards -->
+                <div class="row details-container py-3 ">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- bootstrap js file -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- jquery js file -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!-- my main js file -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
